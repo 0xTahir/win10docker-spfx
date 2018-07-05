@@ -41,7 +41,7 @@ This article assumes you have a basic knowledge of Azure VMs, dockers and ShareP
 
 ![](https://github.com/AlgoNinja/win10docker-spfx/blob/master/07.PNG)
 
-**Note:** Thost drives's **c:\Projects\spfx-helloworld** folder is mapped to **/user/app/spfx** folder in the container to persist the files beyond container's life.
+**Note:** Host drives's **c:\Projects\spfx-helloworld** folder is mapped to **/user/app/spfx** folder in the container to persist the files beyond container's life.
 
 7. You can create a new project by the running `yo @microsoft/sharepoint` command and all the files will be stored at c:\Projects\spfx-webpart which can be accessed on the Host VM(Win10 VM) via Visual Studio Code to [start the developement](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/build-a-hello-world-web-part).
 
