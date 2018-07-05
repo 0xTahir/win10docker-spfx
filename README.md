@@ -1,3 +1,5 @@
+# SPFx Docker image on Windows 10 VM
+
 ## Background
 [Waldek Mastykarz](https://github.com/waldekmastykarz) did an amazing job of creating a [Docker image](https://github.com/waldekmastykarz/docker-spfx) for SharePoint Framework developement which helps in saving a lot of time for developers in terms of preparing the dev environment and running/loading up that environment everyday. 
 
